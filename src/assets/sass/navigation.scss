@@ -1,0 +1,155 @@
+ /* Стили для навигации */
+ .body_wraper {
+     position: relative;
+
+     .navigation {
+         padding-top: 10px;
+         margin-bottom: 50px;
+
+         .navigation_wrap {
+             display: flex;
+             justify-content: space-between;
+             margin-top: 40px;
+             align-items: center;
+
+             @media screen and (max-width: 576px) {
+                 margin-top: 0px;
+             }
+
+             .navigation-button {
+                 position: relative;
+                 display: none;
+                 width: 40px;
+                 margin-left: auto;
+                 height: 40px;
+                 background-color: inherit;
+                 border: 0px;
+                 outline: 0px;
+                 z-index: 2;
+
+                 @media screen and (max-width: 576px) {
+                     display: block;
+                 }
+
+                 span {
+                     position: absolute;
+                     display: block;
+                     width: 22px;
+                     height: 2px;
+                     border-radius: 10px;
+                     background-color: #4047E2;
+                     transition: .5s, opacity .25s, transform .5s;
+                     will-change: transform;
+                 }
+
+                 span:nth-child(1) {
+                     transform: translateY(-5px);
+                 }
+
+                 span:nth-child(2) {}
+
+                 span:nth-child(3) {
+                     transform: translateY(5px);
+                 }
+             }
+
+             .navigation_menu-wrap{
+                visibility: hidden;
+                background-color: rgba(1, 1, 1, 0.6);
+                .navigation_menu {
+                    display: flex;
+                    visibility: visible;
+
+                    @media screen and (max-width: 576px) {
+                        position: fixed;
+                        visibility: hidden;    
+                        text-align: right;
+                        background-color: white;
+                        right: 0;
+                        top: 0;
+                        width: 270px;
+                        height: 100vh;
+                    }
+   
+                    .navigation_menu-text {
+                        display: none;
+                        position: absolute;
+                        bottom: 0;
+                        right: 16px;
+                        grid-gap: 14px;
+                        padding-bottom: 15px;
+   
+                        p {
+                            font-size: 14px;
+                            color: #8F99AC;
+                        }
+                    }
+   
+                    .navigation_menu-list {
+                        display: flex;
+                        grid-gap: 24px;
+                        @media screen and (max-width: 576px) {
+                            flex-direction: column;
+                            position: fixed;
+                            grid-gap: 12px;
+                            padding: 18px;
+                            top: 70px;
+                            right: 0;
+                        }
+                    }
+                }
+             }
+             a {
+                 font-size: 18px;
+                 color: var(--purple);
+             }
+         }
+     }
+
+
+     .header.open {
+        
+        .navigation {
+            .navigation-button {
+                position: fixed;
+                right: 10px;
+
+                span:nth-child(1) {
+                    transform: translateY(0) rotate(45deg);
+                }
+
+                span:nth-child(2) {
+                    opacity: 0;
+                }
+
+                span:nth-child(3) {
+                    transform: translateY(0) rotate(-45deg);
+                }
+            }
+
+            .navigation_menu-wrap{
+                @media screen and (max-width: 576px) {
+                    visibility: visible;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100vw;
+                    height: 100vh;
+                }
+                .navigation_menu {
+                    visibility: visible;
+                    .navigation_menu-list {}
+    
+                    .navigation_menu-text {
+                        @media screen and (max-width: 576px) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+     /* Стили для навигации Конец */
+
+ }

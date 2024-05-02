@@ -1,0 +1,112 @@
+.possibility {
+  padding-bottom: 70px;
+}
+.possibility h2 {
+  text-align: center;
+}
+.possibility .swiper .swiper-wrapper {
+  padding-top: 30px;
+  display: flex;
+  padding-bottom: 50px;
+}
+.possibility .swiper .swiper-wrapper .possibility_card_or {
+  margin: auto;
+  height: 340px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  padding: 50px 20px;
+  background: #FFE1AD;
+  box-shadow: 0px 10px 50px 0px rgba(252, 162, 6, 0.2);
+}
+@media screen and (max-width: 991px) {
+  .possibility .swiper .swiper-wrapper .possibility_card_or {
+    padding: 30px 20px;
+    gap: 15px;
+    height: 250px;
+  }
+  .possibility .swiper .swiper-wrapper .possibility_card_or h3 {
+    font-size: 16px;
+  }
+  .possibility .swiper .swiper-wrapper .possibility_card_or p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .possibility .swiper .swiper-wrapper .possibility_card_or {
+    gap: 15px;
+    width: 240px;
+  }
+}
+.possibility .swiper .swiper-wrapper .possibility_card_or .possibility_card_or-rectangle {
+  background: #FCA206;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 30px 10px;
+}
+@media screen and (max-width: 991px) {
+  .possibility .swiper .swiper-wrapper .possibility_card_or .possibility_card_or-rectangle {
+    height: 70px;
+    width: 70px;
+    padding: 22px 9px;
+  }
+  .possibility .swiper .swiper-wrapper .possibility_card_or .possibility_card_or-rectangle img {
+    width: 70%;
+  }
+}
+.possibility .swiper .swiper-wrapper .possibility_card_bl {
+  margin: auto;
+  height: 340px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-top;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 15px;
+  background: #DFE1FF;
+  box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+}
+@media screen and (max-width: 991px) {
+  .possibility .swiper .swiper-wrapper .possibility_card_bl {
+    padding: 30px 20px;
+    gap: 15px;
+    height: 250px;
+  }
+  .possibility .swiper .swiper-wrapper .possibility_card_bl h3 {
+    font-size: 16px;
+  }
+  .possibility .swiper .swiper-wrapper .possibility_card_bl p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .possibility .swiper .swiper-wrapper .possibility_card_bl {
+    gap: 15px;
+    width: 240px;
+  }
+}
+.possibility .swiper .swiper-wrapper .possibility_card_bl .possibility_card_bl-rectangle {
+  background: #4047E2;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 30px 10px;
+}
+@media screen and (max-width: 991px) {
+  .possibility .swiper .swiper-wrapper .possibility_card_bl .possibility_card_bl-rectangle {
+    height: 70px;
+    width: 70px;
+    padding: 20px 9px;
+  }
+  .possibility .swiper .swiper-wrapper .possibility_card_bl .possibility_card_bl-rectangle img {
+    width: 70%;
+  }
+}/*# sourceMappingURL=possibility.css.map */

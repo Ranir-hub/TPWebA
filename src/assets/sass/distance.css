@@ -1,0 +1,59 @@
+.distance {
+  background-color: #DFE1FF;
+  padding: 80px 0px;
+}
+.distance .distance_promo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.distance .distance_promo .distance_promo-text {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 576px) {
+  .distance .distance_promo .distance_promo-text p {
+    color: #8F99AC;
+  }
+}
+.distance .distance_promo .distance_promo-button {
+  background: #4047e2;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 14px 30px 14px 30px;
+  font-size: 16px;
+  width: 180px;
+}
+@media screen and (max-width: 991px) {
+  .distance .distance_promo .distance_promo-button {
+    width: 100%;
+  }
+}
+.distance .distance_author {
+  margin-left: 60px;
+  background-color: white;
+  border-radius: 35px;
+  padding: 35px;
+}
+@media screen and (max-width: 991px) {
+  .distance .distance_author {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+.distance .distance_author .distance_author-about {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.distance .distance_author .distance_author-about span {
+  color: #8F99AC;
+}
+.distance .distance_author .distance_author-text {
+  margin-bottom: 18px;
+}
+.distance .distance_author .distance_author-text p {
+  font-size: 20px;
+}/*# sourceMappingURL=distance.css.map */

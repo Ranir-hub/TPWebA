@@ -1,0 +1,42 @@
+.teacher {
+  background-color: #DFE1FF;
+  padding: 80px 0px;
+}
+@media screen and (max-width: 576px) {
+  .teacher {
+    background-color: white;
+    padding: 0px;
+  }
+}
+.teacher .teacher-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media screen and (max-width: 991px) {
+  .teacher .teacher-text {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .teacher .teacher-text {
+    text-align: left;
+  }
+}
+.teacher .teacher-img {
+  padding-left: 30px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 991px) {
+  .teacher .teacher-img {
+    padding-left: 0px;
+    margin: 20px 0px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .teacher .teacher-img {
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+  }
+}/*# sourceMappingURL=teacher.css.map */

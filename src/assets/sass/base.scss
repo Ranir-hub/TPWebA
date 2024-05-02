@@ -1,0 +1,66 @@
+* *::before *::after {
+    block-size: content-box;
+}
+  
+body, p, h1, h2, h3, h4, h5, ul {
+    margin: 0;
+    font-family: Rubik;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Сброс стилей закончен */
+
+:root {
+    --dark: #322C49;
+    --purple: #3F3A51;
+}
+  
+
+h1 {
+    font-family: "Rubik", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--dark);
+    @media screen and (max-width: 576px) {
+        font-size: 27px;
+    }
+}
+
+h2{
+    font-family: "Rubik", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--dark);
+    @media screen and (max-width: 576px) {
+        font-size: 27px;
+    }
+}
+
+h3{
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--dark);
+}
+
+p{
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--purple);
+    @media screen and (max-width: 576px) {
+        font-size: 16px;
+    }
+ }
+ 

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* Стили для промо */
+.promo {
+  padding-bottom: 70px;
+}
+.promo img {
+  width: 100%;
+  margin: 20px 0px;
+}
+@media screen and (max-width: 576px) {
+  .promo img {
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+  }
+}
+.promo .promo_base {
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+.promo .promo_base .promo_base-text {
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+.promo .promo_base .promo_base-button {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+@media screen and (max-width: 991px) {
+  .promo .promo_base .promo_base-button {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+}
+.promo .promo_base .promo_base-button .promo_base-button_startlesson {
+  background: #4047e2;
+  color: white;
+  border-radius: 10px;
+  padding: 14px 30px;
+  width: 180px;
+  text-align: center;
+}
+@media screen and (max-width: 991px) {
+  .promo .promo_base .promo_base-button .promo_base-button_startlesson {
+    width: 100%;
+  }
+}
+.promo .promo_base .promo_base-button .promo_base-button_demo {
+  border-radius: 10px;
+  padding: 14px 30px;
+  text-align: center;
+  width: 220px;
+  border: 1px solid #4047E2;
+  color: #4047E2;
+}
+@media screen and (max-width: 991px) {
+  .promo .promo_base .promo_base-button .promo_base-button_demo {
+    width: 100%;
+  }
+}
+.promo .promo_base p {
+  color: #8F99AC;
+}/*# sourceMappingURL=promo.css.map */

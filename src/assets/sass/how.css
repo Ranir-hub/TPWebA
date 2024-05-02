@@ -1,0 +1,19 @@
+.how {
+  padding-bottom: 70px;
+  text-align: center;
+}
+.how h2 {
+  padding-bottom: 24px;
+}
+.how .how_card {
+  display: flex;
+  padding: 10px 56px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+@media screen and (max-width: 576px) {
+  .how .how_card .how_card-img {
+    width: 200px;
+  }
+}/*# sourceMappingURL=how.css.map */
