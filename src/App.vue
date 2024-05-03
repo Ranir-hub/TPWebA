@@ -12,7 +12,6 @@ import Vfooter from "./assets/components/Vfooter.vue";
 </script>
 
 <template>
-  
   <div class="body_wraper">
     <vheader/>
   </div>

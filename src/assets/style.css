@@ -159,8 +159,8 @@
 }
 .promo .promo_base .promo_base-button {
   margin-top: 10px;
-  display: grid;
-  grid-template-columns: 200px 200px;
+  display: flex;
+  gap: 20px;
 }
 @media screen and (max-width: 991px) {
   .promo .promo_base .promo_base-button {

@@ -5,8 +5,7 @@
 <template>
     <section class="distance">
         <div class="container">
-            <div class="row align-items-center justify-content-center">
-
+            <div class="row align-items-center">
                 <div class="col-lg-5">
                     <div class="distance_promo">
                         <div class="distance_promo-text">
